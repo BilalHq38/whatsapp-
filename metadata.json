@@ -1,0 +1,8 @@
+{
+  "name": "Remix VPS Deployer",
+  "description": "Seamlessly deploy and manage your web applications directly to your private server with a single click.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

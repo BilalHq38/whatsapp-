@@ -1,0 +1,1086 @@
+{
+  "settings": {
+    "quiet_period_minutes": 3,
+    "admin_data_access_enabled": true,
+    "followup_text_sets_change_requested": true,
+    "followup_image_creates_draft": true,
+    "auto_urdu_ack_enabled": true,
+    "ack_template_urdu": "آپ کا آرڈر موصول ہو گیا ہے۔ آرڈر نمبر {{number}}۔ شکریہ۔",
+    "closed_window_template": "آپ کا ڈیزائن تیار ہے (آرڈر نمبر {{number}})۔ براہ کرم جواب دیں تاکہ ہم ڈیزائن کی تصاویر اور ویڈیو بھیج سکیں۔",
+    "ai_enabled": true
+  },
+  "whatsapp_accounts": [
+    {
+      "id": "wa-main",
+      "name": "Owner Main Workshop (Coexistence)",
+      "phone_number": "+92 300 8411000",
+      "phone_number_id": "109283746510293",
+      "business_account_id": "987654321012345",
+      "active": true,
+      "app_type": "whatsapp_business_coexistence",
+      "app_version": "2.24.22.78",
+      "last_keepalive_at": "2026-11-08T03:30:00.000Z",
+      "outbound_messages_month": 1420,
+      "free_tier_limit": 1000
+    },
+    {
+      "id": "wa-secondary",
+      "name": "Showroom Counter #2 (Standby)",
+      "phone_number": "+92 321 4902211",
+      "phone_number_id": "109283746599881",
+      "business_account_id": "987654321012345",
+      "active": false,
+      "app_type": "cloud_api_dedicated",
+      "app_version": "Cloud API v21.0",
+      "last_keepalive_at": "2026-11-06T09:30:00.000Z",
+      "outbound_messages_month": 85,
+      "free_tier_limit": 1000
+    }
+  ],
+  "users": [
+    {
+      "id": "user-owner",
+      "username": "owner",
+      "full_name": "Haji Abdul Rauf (Owner)",
+      "role": "owner",
+      "active": true,
+      "last_login": "2026-11-08T09:18:00.000Z"
+    },
+    {
+      "id": "user-staff-1",
+      "username": "zubair",
+      "full_name": "Zubair Khan (Senior Staff)",
+      "role": "staff",
+      "active": true,
+      "last_login": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "user-staff-2",
+      "username": "bilal_staff",
+      "full_name": "Bilal Hassan (Order Desk)",
+      "role": "staff",
+      "active": true,
+      "last_login": "2026-11-08T05:30:00.000Z"
+    },
+    {
+      "id": "des-1",
+      "username": "tariq",
+      "full_name": "Ustad Tariq Mahmood",
+      "role": "designer",
+      "specialty": "Gent & Ladies Rings / Thawa Work",
+      "active": true,
+      "last_login": "2026-11-08T09:12:00.000Z"
+    },
+    {
+      "id": "des-2",
+      "username": "kamran",
+      "full_name": "Kamran Ali",
+      "role": "designer",
+      "specialty": "Bangles & Jali Kara",
+      "active": true,
+      "last_login": "2026-11-08T09:06:00.000Z"
+    },
+    {
+      "id": "des-3",
+      "username": "zainab",
+      "full_name": "Zainab Bibi",
+      "role": "designer",
+      "specialty": "Bridal Necklace & Mala Sets",
+      "active": true,
+      "last_login": "2026-11-08T08:24:00.000Z"
+    },
+    {
+      "id": "des-4",
+      "username": "faisal",
+      "full_name": "Faisal Mehmood",
+      "role": "designer",
+      "specialty": "Jhumka & Stone Earrings",
+      "active": true,
+      "last_login": "2026-11-08T08:42:00.000Z"
+    },
+    {
+      "id": "des-5",
+      "username": "bilal",
+      "full_name": "Bilal Raza",
+      "role": "designer",
+      "specialty": "Pendants & Lockets",
+      "active": true,
+      "last_login": "2026-11-08T08:00:00.000Z"
+    },
+    {
+      "id": "des-6",
+      "username": "hamza",
+      "full_name": "Hamza Qureshi",
+      "role": "designer",
+      "specialty": "Matrix 3D Sculpting",
+      "active": true,
+      "last_login": "2026-11-08T07:30:00.000Z"
+    },
+    {
+      "id": "des-7",
+      "username": "noman",
+      "full_name": "Noman Sheikh",
+      "role": "designer",
+      "specialty": "Filigree & Cheen Sitar Rings",
+      "active": true,
+      "last_login": "2026-11-08T08:36:00.000Z"
+    },
+    {
+      "id": "des-8",
+      "username": "sadia",
+      "full_name": "Sadia Noor",
+      "role": "designer",
+      "specialty": "Zircon & Micro Pave Setting",
+      "active": true,
+      "last_login": "2026-11-08T08:18:00.000Z"
+    },
+    {
+      "id": "des-9",
+      "username": "usman",
+      "full_name": "Usman Ghani",
+      "role": "designer",
+      "specialty": "Hollow Bangles & Bracelets",
+      "active": true,
+      "last_login": "2026-11-08T06:30:00.000Z"
+    },
+    {
+      "id": "des-10",
+      "username": "rizwan",
+      "full_name": "Rizwan Ahmed",
+      "role": "designer",
+      "specialty": "Custom Catalog Revisions",
+      "active": true,
+      "last_login": "2026-11-08T07:00:00.000Z"
+    },
+    {
+      "id": "user-admin",
+      "username": "admin",
+      "full_name": "System Developer (Admin)",
+      "role": "admin",
+      "active": true,
+      "last_login": "2026-11-08T08:30:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-ring",
+      "name_en": "Ring",
+      "name_ur": "انگوٹھی (Ring)",
+      "usage_count": 148,
+      "active": true
+    },
+    {
+      "id": "cat-bangle",
+      "name_en": "Bangle",
+      "name_ur": "چوڑی / کڑا (Bangle)",
+      "usage_count": 112,
+      "active": true
+    },
+    {
+      "id": "cat-earrings",
+      "name_en": "Earrings",
+      "name_ur": "آویزے / جھمکے (Earrings)",
+      "usage_count": 89,
+      "active": true
+    },
+    {
+      "id": "cat-necklace",
+      "name_en": "Pendant, necklace, chain",
+      "name_ur": "لاکٹ، ہار، چین (Pendant/Necklace)",
+      "usage_count": 74,
+      "active": true
+    },
+    {
+      "id": "cat-bracelet",
+      "name_en": "Bracelet",
+      "name_ur": "بریسلٹ (Bracelet)",
+      "usage_count": 41,
+      "active": true
+    }
+  ],
+  "category_fields": [
+    {
+      "id": "cf-weight",
+      "category_id": "*",
+      "key": "weight",
+      "label_en": "Weight",
+      "label_ur": "وزن (Weight)",
+      "field_type": "unit_number",
+      "units": [
+        "gram",
+        "tola",
+        "masha",
+        "ratti"
+      ],
+      "placeholder": "e.g. 6.5 or 1.25"
+    },
+    {
+      "id": "cf-quantity",
+      "category_id": "*",
+      "key": "quantity",
+      "label_en": "Quantity",
+      "label_ur": "تعداد (Quantity)",
+      "field_type": "unit_number",
+      "units": [
+        "pcs",
+        "set"
+      ],
+      "placeholder": "e.g. 1 or 4"
+    },
+    {
+      "id": "cf-pair",
+      "category_id": "*",
+      "key": "pair",
+      "label_en": "Pair (Yes/No)",
+      "label_ur": "جوڑا (ہاں/نہیں)",
+      "field_type": "select",
+      "options": [
+        "Yes (Jora)",
+        "No (Single)"
+      ]
+    },
+    {
+      "id": "cf-stone",
+      "category_id": "*",
+      "key": "stone_size",
+      "label_en": "Stone Size",
+      "label_ur": "نگ / پتھر کا سائز",
+      "field_type": "unit_number",
+      "units": [
+        "mm",
+        "inch",
+        "ratti"
+      ],
+      "placeholder": "e.g. 2.5"
+    },
+    {
+      "id": "cf-ring-std",
+      "category_id": "cat-ring",
+      "key": "ring_standard",
+      "label_en": "Ring Size Standard",
+      "label_ur": "انگوٹھی پیمانہ (سٹیل / پلاسٹک)",
+      "field_type": "select",
+      "options": [
+        "steel",
+        "plastic",
+        "cheen sitar"
+      ]
+    },
+    {
+      "id": "cf-ring-num",
+      "category_id": "cat-ring",
+      "key": "ring_size_number",
+      "label_en": "Ring Size Number",
+      "label_ur": "انگوٹھی سائز نمبر",
+      "field_type": "text",
+      "placeholder": "e.g. 18 or 21"
+    },
+    {
+      "id": "cf-ring-thawa",
+      "category_id": "cat-ring",
+      "key": "thawa_size",
+      "label_en": "Thawa (Top Part) Size",
+      "label_ur": "تھوا (اوپری حصہ) سائز",
+      "field_type": "unit_number",
+      "units": [
+        "mm",
+        "inch"
+      ],
+      "placeholder": "e.g. 14"
+    },
+    {
+      "id": "cf-bangle-size",
+      "category_id": "cat-bangle",
+      "key": "bangle_size",
+      "label_en": "Size in Inches & Points (as customer says)",
+      "label_ur": "چوڑی کا سائز (انچ اور سُوتر)",
+      "field_type": "unit_number",
+      "units": [
+        "inch + points",
+        "inch",
+        "mm"
+      ],
+      "placeholder": "e.g. 2 inch 4 points (2-4)"
+    },
+    {
+      "id": "cf-chain-len",
+      "category_id": "cat-necklace",
+      "key": "chain_length",
+      "label_en": "Chain Length (Informational)",
+      "label_ur": "چین کی لمبائی",
+      "field_type": "unit_number",
+      "units": [
+        "inch",
+        "mm"
+      ],
+      "placeholder": "e.g. 18"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "phone": "+92 300 4128900",
+      "profile_name": "Al-Madina Jewellers",
+      "display_name": "Sheikh Waqas (Al-Madina Sarafa)",
+      "notes": "Uses steel ring gauge. Prefers heavy thawa.",
+      "last_message_at": "2026-11-08T09:21:00.000Z",
+      "created_at": "2026-10-09T09:30:00.000Z"
+    },
+    {
+      "id": "cust-2",
+      "phone": "+92 321 8841209",
+      "profile_name": "Noorani Gold House",
+      "display_name": "Haji Imran (Noorani Gold)",
+      "notes": "Usually sends voice notes in Punjabi/Urdu with weight in tola & masha.",
+      "last_message_at": "2026-11-08T09:06:00.000Z",
+      "created_at": "2026-10-18T13:30:00.000Z"
+    },
+    {
+      "id": "cust-3",
+      "phone": "+92 333 9104455",
+      "profile_name": "Zainab Zewar Palace",
+      "display_name": "Malik Asad (Zainab Zewar)",
+      "notes": "Orders bangle sets & jhumkas.",
+      "last_message_at": "2026-11-08T07:00:00.000Z",
+      "created_at": "2026-10-22T17:30:00.000Z"
+    },
+    {
+      "id": "cust-4",
+      "phone": "+92 345 7712390",
+      "profile_name": "Lahore Royal Karigar",
+      "display_name": "Mian Kashif (Royal Jewellers)",
+      "notes": "On-site & WhatsApp wholesale customer.",
+      "last_message_at": "2026-11-07T02:30:00.000Z",
+      "created_at": "2026-10-01T21:30:00.000Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "med-ref-101",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/wa_img_101.jpg",
+      "mime": "image/jpeg",
+      "size": 2450000,
+      "sha256": "8f14e45fceea167a5a36dedd4bea2543",
+      "kind": "customer",
+      "media_type": "image",
+      "title": "Customer WhatsApp Photo: Gent Filigree Ring",
+      "svg_type": "ring",
+      "uploaded_by": "system_webhook",
+      "created_at": "2026-11-08T09:19:12.000Z"
+    },
+    {
+      "id": "med-ref-102",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/wa_img_102.jpg",
+      "mime": "image/jpeg",
+      "size": 3120000,
+      "sha256": "c9f0f895fb98ab9159f51fd0297e236d",
+      "kind": "customer",
+      "media_type": "image",
+      "title": "Customer WhatsApp Photo: Matching Ladies Ring",
+      "svg_type": "ring",
+      "uploaded_by": "system_webhook",
+      "created_at": "2026-11-08T09:20:24.000Z"
+    },
+    {
+      "id": "med-ref-103",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/wa_img_103.jpg",
+      "mime": "image/jpeg",
+      "size": 4100000,
+      "sha256": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+      "kind": "customer",
+      "media_type": "image",
+      "title": "Jali Bangle Sample Photo",
+      "svg_type": "bangle",
+      "uploaded_by": "system_webhook",
+      "created_at": "2026-11-08T06:18:00.000Z"
+    },
+    {
+      "id": "med-ref-104",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/wa_img_104.jpg",
+      "mime": "image/jpeg",
+      "size": 2890000,
+      "sha256": "d3d9446802a44259755d38e6d163e820",
+      "kind": "customer",
+      "media_type": "image",
+      "title": "Bridal Jhumka Reference Photo",
+      "svg_type": "earrings",
+      "uploaded_by": "system_webhook",
+      "created_at": "2026-11-08T04:30:00.000Z"
+    },
+    {
+      "id": "med-ref-105",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/07/wa_img_105.jpg",
+      "mime": "image/jpeg",
+      "size": 3340000,
+      "sha256": "6512bd43d9caa6e02c990b0a82652dca",
+      "kind": "customer",
+      "media_type": "image",
+      "title": "Locket & Mala Set Reference",
+      "svg_type": "necklace",
+      "uploaded_by": "system_webhook",
+      "created_at": "2026-11-07T02:00:00.000Z"
+    },
+    {
+      "id": "med-out-201",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/out_cad_201.png",
+      "mime": "image/png",
+      "size": 5400000,
+      "sha256": "c20ad4d76fe97759aa27a0c99bff6710",
+      "kind": "output",
+      "media_type": "image",
+      "title": "Matrix 4-View Technical Render (Jhumka)",
+      "svg_type": "cad_render",
+      "uploaded_by": "des-4",
+      "created_at": "2026-11-08T08:24:00.000Z"
+    },
+    {
+      "id": "med-out-202",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/out_turntable_202.mp4",
+      "mime": "video/mp4",
+      "size": 8900000,
+      "sha256": "c51ce410c124a10e0db5e4b97fc2af39",
+      "kind": "output",
+      "media_type": "video",
+      "title": "360° Turntable Video (ffmpeg compressed for WhatsApp)",
+      "svg_type": "video_turntable",
+      "uploaded_by": "des-4",
+      "created_at": "2026-11-08T08:30:00.000Z"
+    },
+    {
+      "id": "med-out-203",
+      "storage_key": "s3://rp-design-whatsapp-media/2026/11/08/out_cad_203.png",
+      "mime": "image/png",
+      "size": 4800000,
+      "sha256": "aab3238922bcc25a6f606eb525ffdc56",
+      "kind": "output",
+      "media_type": "image",
+      "title": "Approved Locket Set Final RP Render",
+      "svg_type": "cad_render",
+      "uploaded_by": "des-3",
+      "created_at": "2026-11-08T07:30:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-128",
+      "number": 128,
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "source": "whatsapp",
+      "is_draft": true,
+      "ack_sent": true,
+      "ack_message_text": "آپ کا آرڈر موصول ہو گیا ہے۔ آرڈر نمبر 128۔ شکریہ۔",
+      "created_by": "system_webhook",
+      "created_at": "2026-11-08T09:19:12.000Z"
+    },
+    {
+      "id": "ord-127",
+      "number": 127,
+      "account_id": "wa-main",
+      "customer_id": "cust-2",
+      "source": "whatsapp",
+      "is_draft": false,
+      "ack_sent": true,
+      "ack_message_text": "آپ کا آرڈر موصول ہو گیا ہے۔ آرڈر نمبر 127۔ شکریہ۔",
+      "created_by": "user-owner",
+      "created_at": "2026-11-08T08:00:00.000Z"
+    },
+    {
+      "id": "ord-126",
+      "number": 126,
+      "account_id": "wa-main",
+      "customer_id": "cust-3",
+      "source": "whatsapp",
+      "is_draft": false,
+      "ack_sent": true,
+      "created_by": "user-staff-1",
+      "created_at": "2026-11-08T06:18:00.000Z"
+    },
+    {
+      "id": "ord-125",
+      "number": 125,
+      "account_id": "wa-main",
+      "customer_id": "cust-3",
+      "source": "whatsapp",
+      "is_draft": false,
+      "ack_sent": true,
+      "created_by": "user-owner",
+      "created_at": "2026-11-08T04:30:00.000Z"
+    },
+    {
+      "id": "ord-124",
+      "number": 124,
+      "account_id": "wa-main",
+      "customer_id": "cust-4",
+      "source": "onsite",
+      "is_draft": false,
+      "catalog_book_name": "Royal Bridal Vol. 4",
+      "catalog_item_number": "RB-88",
+      "ack_sent": false,
+      "created_by": "user-owner",
+      "created_at": "2026-11-07T07:30:00.000Z"
+    },
+    {
+      "id": "ord-123",
+      "number": 123,
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "source": "whatsapp",
+      "is_draft": false,
+      "ack_sent": true,
+      "created_by": "user-owner",
+      "created_at": "2026-11-07T05:30:00.000Z",
+      "delivered_at": "2026-11-08T05:30:00.000Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "item-128-1",
+      "order_id": "ord-128",
+      "order_number": 128,
+      "item_index": 1,
+      "category_id": "cat-ring",
+      "designer_id": null,
+      "status": "New",
+      "specs": {
+        "ring_standard": {
+          "value": "steel"
+        },
+        "ring_size_number": {
+          "value": "21"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {
+        "weight": {
+          "value": "8.5",
+          "unit": "gram"
+        },
+        "thawa_size": {
+          "value": "15",
+          "unit": "mm"
+        },
+        "stone_size": {
+          "value": "3",
+          "unit": "mm"
+        }
+      },
+      "ai_suggested_category_id": "cat-ring",
+      "note": "Gent ring with side cheen sitar pattern",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-101"
+      ],
+      "output_media_ids": [],
+      "similar_order_warning": {
+        "matched_order_number": 123,
+        "similarity_score": 0.92,
+        "summary": "This customer ordered a similar Gent Filigree Ring in Order #123 (92% CLIP match)."
+      },
+      "created_at": "2026-11-08T09:19:12.000Z",
+      "updated_at": "2026-11-08T09:19:12.000Z"
+    },
+    {
+      "id": "item-128-2",
+      "order_id": "ord-128",
+      "order_number": 128,
+      "item_index": 2,
+      "category_id": "cat-ring",
+      "designer_id": null,
+      "status": "New",
+      "specs": {},
+      "previous_specs": {},
+      "ai_suggested_specs": {
+        "weight": {
+          "value": "5",
+          "unit": "masha"
+        },
+        "ring_standard": {
+          "value": "steel"
+        },
+        "ring_size_number": {
+          "value": "14"
+        }
+      },
+      "ai_suggested_category_id": "cat-ring",
+      "note": "Matching ladies ring from second WhatsApp image",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-102"
+      ],
+      "output_media_ids": [],
+      "created_at": "2026-11-08T09:20:24.000Z",
+      "updated_at": "2026-11-08T09:20:24.000Z"
+    },
+    {
+      "id": "item-127-1",
+      "order_id": "ord-127",
+      "order_number": 127,
+      "item_index": 1,
+      "category_id": "cat-ring",
+      "designer_id": null,
+      "status": "New",
+      "specs": {
+        "weight": {
+          "value": "9",
+          "unit": "masha"
+        },
+        "ring_standard": {
+          "value": "plastic"
+        },
+        "ring_size_number": {
+          "value": "19"
+        },
+        "thawa_size": {
+          "value": "14",
+          "unit": "mm"
+        },
+        "quantity": {
+          "value": "1",
+          "unit": "pcs"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {},
+      "note": "Keep inner shank solid, customer requested plastic gauge 19 exact.",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-101"
+      ],
+      "output_media_ids": [],
+      "created_at": "2026-11-08T08:00:00.000Z",
+      "updated_at": "2026-11-08T08:06:00.000Z"
+    },
+    {
+      "id": "item-126-1",
+      "order_id": "ord-126",
+      "order_number": 126,
+      "item_index": 1,
+      "category_id": "cat-bangle",
+      "designer_id": "des-2",
+      "status": "Change requested",
+      "specs": {
+        "weight": {
+          "value": "2.5",
+          "unit": "tola"
+        },
+        "bangle_size": {
+          "value": "2 inch 5 points",
+          "unit": "inch + points"
+        },
+        "quantity": {
+          "value": "4",
+          "unit": "pcs"
+        },
+        "pair": {
+          "value": "Yes (Jora)"
+        }
+      },
+      "previous_specs": {
+        "weight": {
+          "value": "2.0",
+          "unit": "tola"
+        },
+        "bangle_size": {
+          "value": "2 inch 4 points",
+          "unit": "inch + points"
+        }
+      },
+      "ai_suggested_specs": {},
+      "note": "Customer sent follow-up voice note: increase bangle size by 1 point to 2-5 and weight to 2.5 tola.",
+      "change_flag": true,
+      "change_note": "Follow-up WhatsApp voice note: Change size from 2-4 to 2-5 and weight from 2.0 tola to 2.5 tola.",
+      "reference_media_ids": [
+        "med-ref-103"
+      ],
+      "output_media_ids": [],
+      "created_at": "2026-11-08T06:18:00.000Z",
+      "updated_at": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "item-126-2",
+      "order_id": "ord-126",
+      "order_number": 126,
+      "item_index": 2,
+      "category_id": "cat-ring",
+      "designer_id": "des-1",
+      "status": "In progress",
+      "specs": {
+        "weight": {
+          "value": "6.2",
+          "unit": "gram"
+        },
+        "ring_standard": {
+          "value": "steel"
+        },
+        "ring_size_number": {
+          "value": "17"
+        },
+        "thawa_size": {
+          "value": "12",
+          "unit": "mm"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {},
+      "note": "Matching ring for the bangle set.",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-102"
+      ],
+      "output_media_ids": [],
+      "created_at": "2026-11-08T06:18:00.000Z",
+      "updated_at": "2026-11-08T07:30:00.000Z"
+    },
+    {
+      "id": "item-125-1",
+      "order_id": "ord-125",
+      "order_number": 125,
+      "item_index": 1,
+      "category_id": "cat-earrings",
+      "designer_id": "des-4",
+      "status": "Submitted",
+      "specs": {
+        "weight": {
+          "value": "1.25",
+          "unit": "tola"
+        },
+        "pair": {
+          "value": "Yes (Jora)"
+        },
+        "stone_size": {
+          "value": "2.0",
+          "unit": "mm"
+        },
+        "quantity": {
+          "value": "1",
+          "unit": "set"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {},
+      "note": "Bell jhumka with strong hook thickness.",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-104"
+      ],
+      "output_media_ids": [
+        "med-out-201",
+        "med-out-202"
+      ],
+      "created_at": "2026-11-08T04:30:00.000Z",
+      "updated_at": "2026-11-08T08:30:00.000Z"
+    },
+    {
+      "id": "item-124-1",
+      "order_id": "ord-124",
+      "order_number": 124,
+      "item_index": 1,
+      "category_id": "cat-necklace",
+      "designer_id": "des-3",
+      "status": "Approved",
+      "specs": {
+        "weight": {
+          "value": "3.5",
+          "unit": "tola"
+        },
+        "chain_length": {
+          "value": "18",
+          "unit": "inch"
+        },
+        "stone_size": {
+          "value": "4",
+          "unit": "ratti"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {},
+      "note": "Catalog Book Royal Bridal Vol. 4 Item RB-88.",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-105"
+      ],
+      "output_media_ids": [
+        "med-out-203"
+      ],
+      "created_at": "2026-11-07T07:30:00.000Z",
+      "updated_at": "2026-11-08T07:42:00.000Z"
+    },
+    {
+      "id": "item-123-1",
+      "order_id": "ord-123",
+      "order_number": 123,
+      "item_index": 1,
+      "category_id": "cat-ring",
+      "designer_id": "des-1",
+      "status": "Delivered",
+      "specs": {
+        "weight": {
+          "value": "8.0",
+          "unit": "gram"
+        },
+        "ring_standard": {
+          "value": "steel"
+        },
+        "ring_size_number": {
+          "value": "20"
+        },
+        "thawa_size": {
+          "value": "15",
+          "unit": "mm"
+        }
+      },
+      "previous_specs": {},
+      "ai_suggested_specs": {},
+      "note": "Delivered on WhatsApp and approved by Sheikh Waqas.",
+      "change_flag": false,
+      "reference_media_ids": [
+        "med-ref-101"
+      ],
+      "output_media_ids": [
+        "med-out-201"
+      ],
+      "created_at": "2026-11-07T05:30:00.000Z",
+      "updated_at": "2026-11-08T05:30:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-101",
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "wa_message_id": "wamid.HBgMOTIzMDA0MTI4OTAwFQIAEhggMDE",
+      "direction": "inbound",
+      "type": "image",
+      "text": "Bhai yeh gent ring bana den steel size 21 mein",
+      "media_id": "med-ref-101",
+      "timestamp": "2026-11-08T09:19:12.000Z",
+      "order_id": "ord-128",
+      "item_id": "item-128-1"
+    },
+    {
+      "id": "msg-102",
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "wa_message_id": "wamid.HBgMOTIzMDA0MTI4OTAwFQIAEhggMDI",
+      "direction": "inbound",
+      "type": "image",
+      "text": "Aur is ke sath yeh ladies ring bhi",
+      "media_id": "med-ref-102",
+      "timestamp": "2026-11-08T09:19:48.000Z",
+      "order_id": "ord-128",
+      "item_id": "item-128-2"
+    },
+    {
+      "id": "msg-103",
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "wa_message_id": "wamid.HBgMOTIzMDA0MTI4OTAwFQIAEhggMDM",
+      "direction": "inbound",
+      "type": "audio",
+      "text": "Voice Note (16s): \"Gent ring ka wazan 8.5 gram rakhna aur thawa 15 mm, ladies ring 5 masha steel 14 number\"",
+      "reply_to_wa_id": "wamid.HBgMOTIzMDA0MTI4OTAwFQIAEhggMDE",
+      "timestamp": "2026-11-08T09:21:00.000Z",
+      "order_id": "ord-128",
+      "item_id": "item-128-1"
+    },
+    {
+      "id": "msg-104",
+      "account_id": "wa-main",
+      "customer_id": "cust-1",
+      "wa_message_id": "wamid.HBgMOTIzMDA0MTI4OTAwFQIAEhggMDQ",
+      "direction": "outbound",
+      "type": "text",
+      "text": "آپ کا آرڈر موصول ہو گیا ہے۔ آرڈر نمبر 128۔ شکریہ۔",
+      "timestamp": "2026-11-08T09:21:00.000Z",
+      "order_id": "ord-128"
+    },
+    {
+      "id": "msg-105",
+      "account_id": "wa-main",
+      "customer_id": "cust-3",
+      "wa_message_id": "wamid.HBgMOTIzMzM5MTA0NDU1FQIAEhggMDU",
+      "direction": "inbound",
+      "type": "audio",
+      "text": "Voice Note (12s): \"Haji sahib chori ka size 2 inch 4 sutar se barha kar 2 inch 5 sutar kar den aur wazan dhai tola (2.5 tola)\"",
+      "timestamp": "2026-11-08T09:00:00.000Z",
+      "order_id": "ord-126",
+      "item_id": "item-126-1"
+    }
+  ],
+  "status_history": [
+    {
+      "id": "sh-1",
+      "item_id": "item-126-1",
+      "order_number": 126,
+      "from_status": "New",
+      "to_status": "Allotted",
+      "user_id": "user-staff-1",
+      "user_name": "Zubair Khan (Senior Staff)",
+      "note": "Allotted to Kamran Ali",
+      "at": "2026-11-08T06:30:00.000Z"
+    },
+    {
+      "id": "sh-2",
+      "item_id": "item-126-1",
+      "order_number": 126,
+      "from_status": "Allotted",
+      "to_status": "In progress",
+      "user_id": "des-2",
+      "user_name": "Kamran Ali",
+      "at": "2026-11-08T07:06:00.000Z"
+    },
+    {
+      "id": "sh-3",
+      "item_id": "item-126-1",
+      "order_number": 126,
+      "from_status": "In progress",
+      "to_status": "Change requested",
+      "user_id": "user-owner",
+      "user_name": "Haji Abdul Rauf (Owner)",
+      "note": "Customer follow-up changed bangle size to 2 inch 5 points and weight to 2.5 tola",
+      "at": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "sh-4",
+      "item_id": "item-125-1",
+      "order_number": 125,
+      "from_status": "In progress",
+      "to_status": "Submitted",
+      "user_id": "des-4",
+      "user_name": "Faisal Mehmood",
+      "note": "Uploaded 4-view render and 360 turntable MP4",
+      "at": "2026-11-08T08:30:00.000Z"
+    }
+  ],
+  "audit_log": [
+    {
+      "id": "aud-1",
+      "actor_id": "user-owner",
+      "actor_name": "Haji Abdul Rauf (Owner)",
+      "actor_role": "owner",
+      "action": "SPEC_CHANGE_REQUESTED",
+      "target": "Order #126 · Item 1 (Bangle)",
+      "details": "Updated weight 2.0 tola -> 2.5 tola, bangle_size 2-4 -> 2-5",
+      "at": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "aud-2",
+      "actor_id": "des-4",
+      "actor_name": "Faisal Mehmood",
+      "actor_role": "designer",
+      "action": "OUTPUT_SUBMITTED",
+      "target": "Order #125 · Item 1 (Earrings)",
+      "details": "Uploaded 2 media files (PNG + compressed MP4)",
+      "at": "2026-11-08T08:30:00.000Z"
+    },
+    {
+      "id": "aud-3",
+      "actor_id": "user-staff-1",
+      "actor_name": "Zubair Khan (Senior Staff)",
+      "actor_role": "staff",
+      "action": "DESIGNER_ALLOTTED",
+      "target": "Order #126 · Item 1 & 2",
+      "details": "Assigned Item 1 to Kamran Ali, Item 2 to Ustad Tariq",
+      "at": "2026-11-08T06:30:00.000Z"
+    }
+  ],
+  "admin_access_log": [
+    {
+      "id": "aal-1794088250083",
+      "admin_id": "user-admin",
+      "admin_name": "System Developer (Admin)",
+      "endpoint": "GET /api/state (Order & Customer Monitor)",
+      "reason": "Admin inspected live workshop state with owner permission enabled",
+      "at": "2026-11-07T21:50:50.083Z"
+    },
+    {
+      "id": "aal-1",
+      "admin_id": "user-admin",
+      "admin_name": "System Developer (Admin)",
+      "endpoint": "GET /api/admin/weekly-report",
+      "reason": "Routine weekly webhook & ffmpeg conversion verification",
+      "at": "2026-11-08T04:00:00.000Z"
+    },
+    {
+      "id": "aal-2",
+      "admin_id": "user-admin",
+      "admin_name": "System Developer (Admin)",
+      "endpoint": "GET /api/orders (Order #123 inspection)",
+      "reason": "Verified WhatsApp media delivery receipt for Sheikh Waqas",
+      "at": "2026-11-07T14:30:00.000Z"
+    }
+  ],
+  "error_log": [
+    {
+      "id": "err-1",
+      "source": "whatsapp_send",
+      "message": "24-hour customer service window expired for +92 345 7712390 (Order #124)",
+      "context": "System blocked free-form media send and queued Meta template fallback.",
+      "resolved": false,
+      "at": "2026-11-08T08:18:00.000Z"
+    },
+    {
+      "id": "err-2",
+      "source": "media_ffmpeg",
+      "message": "Slow Ogg Opus voice note transcode (2.4s) on Order #126",
+      "context": "ARQ Redis worker retried and completed AAC output.",
+      "resolved": true,
+      "at": "2026-11-07T19:30:00.000Z"
+    }
+  ],
+  "ai_prompt_versions": [
+    {
+      "id": "prompt-v1",
+      "version": 1,
+      "model": "gemini-3.8-flash",
+      "instruction_text": "Extract jewelry category (Ring, Bangle, Earrings, Necklace) and specs (weight with exact unit gram/tola/masha/ratti, ring size, bangle size). Never convert units.",
+      "created_by": "System Developer (Admin)",
+      "created_at": "2026-11-01T09:30:00.000Z",
+      "active": false,
+      "last_test_accuracy": 78
+    },
+    {
+      "id": "prompt-v2",
+      "version": 2,
+      "model": "gemini-3.8-flash",
+      "instruction_text": "You assist a Pakistani gold jewelry RP/CAD workshop. Extract category and optional specs from Urdu/Punjabi/English customer messages. Always preserve the exact unit spoken by the customer (gram, tola, masha, ratti; mm or inch; steel, plastic, or cheen sitar). Distinguish Kara/Bangle (size in inches & points/sutar) from Rings (size number + thawa in mm). Never auto-convert units.",
+      "created_by": "System Developer (Admin)",
+      "created_at": "2026-11-06T09:30:00.000Z",
+      "active": true,
+      "last_test_accuracy": 93
+    }
+  ],
+  "ai_corrections": [
+    {
+      "id": "corr-1",
+      "order_number": 121,
+      "item_id": "item-121-1",
+      "field_name": "category",
+      "ai_value": "Ring",
+      "human_value": "Bracelet (Kara)",
+      "corrected_by": "Haji Abdul Rauf (Owner)",
+      "at": "2026-11-05T09:30:00.000Z"
+    },
+    {
+      "id": "corr-2",
+      "order_number": 124,
+      "item_id": "item-124-1",
+      "field_name": "ring_standard",
+      "ai_value": "steel",
+      "human_value": "cheen sitar",
+      "corrected_by": "Zubair Khan (Senior Staff)",
+      "at": "2026-11-06T19:30:00.000Z"
+    },
+    {
+      "id": "corr-3",
+      "order_number": 126,
+      "item_id": "item-126-1",
+      "field_name": "bangle_size",
+      "ai_value": "2.4 inch",
+      "human_value": "2 inch 4 points (sutar)",
+      "corrected_by": "Haji Abdul Rauf (Owner)",
+      "at": "2026-11-07T21:30:00.000Z"
+    }
+  ]
+}
